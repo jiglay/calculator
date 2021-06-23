@@ -17,8 +17,8 @@ export default class ToggleLightDarkMode {
         // const stringLight = (window.location.href + this.srcLight).replace('/index.html.', '');
         // const stringDark = (window.location.href + this.srcDark).replace('/index.html.', '');
 
-        const stringLight = (window.location.href + this.srcLight).replace('./img', '/img');
-        const stringDark = (window.location.href + this.srcDark).replace('./img', '/img');
+        const stringLight = (window.location.href + this.srcLight).replace('./img', 'img');
+        const stringDark = (window.location.href + this.srcDark).replace('./img', 'img');
         console.log(`
         ${stringLight}
         ${stringDark}`);
