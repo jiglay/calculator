@@ -19,6 +19,9 @@ export default class ToggleLightDarkMode {
 
         const stringLight = (window.location.href + this.srcLight).replace('./img', '/img');
         const stringDark = (window.location.href + this.srcDark).replace('./img', '/img');
+        console.log(`
+        ${stringLight}
+        ${stringDark}`);
 
         if (this.button.src === stringLight)
             this.button.src = this.srcDark;
